@@ -4,3 +4,7 @@ on:
 jobs:
   call:
     uses: ./.github/workflows/reusable.yml
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "done"
